@@ -1,0 +1,27 @@
+/* Algemene stijl voor de pagina */
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #222;
+    margin: 20px;
+}
+
+/* Hoofding */
+h1 {
+    color: darkblue;
+}
+
+/* Hyperlink met icoontje */
+a {
+    color: darkred;
+    text-decoration: none;
+    background-image: url('link-icon.png'); /* het icoontje */
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px; /* ruimte voor het icoon */
+}
+
+/* Hover effect */
+a:hover {
+    text-decoration: underline;
+}
