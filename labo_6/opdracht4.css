@@ -1,0 +1,35 @@
+/* Algemene opmaak voor de hele pagina */
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 1.1em;
+    background-color: silver;
+    color: darkblue;
+    margin: 20px;
+}
+
+/* Opmaak voor de hoofding */
+h1 {
+    font-variant: small-caps;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Links en hover-effect */
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    border: 2px solid darkblue;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+/* Klasse voor stippeltjesrand */
+.stippeltjesrand {
+    border: 1px dotted darkblue;
+    padding: 10px;
+    margin-top: 10px;
+}
