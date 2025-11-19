@@ -1,0 +1,24 @@
+/* achtergrondkleur voor alle even rijen */
+tr.alt {
+    background-color: #f2f2f2;
+}
+
+/* rode achtergrond voor cellen met onbekende gegevens */
+.onbekend {
+    background-color: red;
+}
+
+/* optioneel: tabel wat mooier maken */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #ddd;
+}

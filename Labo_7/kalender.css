@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table.calendar {
+    border-collapse: collapse;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.calendar th, .calendar td {
+    border: 1px solid #666;
+    width: 45px;
+    height: 35px;
+    padding: 5px;
+}
+
+/* Maand titel */
+.month-header th {
+    background: rgb(170, 170, 200);
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+/* Dag titel */
+.day-header th {
+    background: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+    padding: 6px;
+}
+
+/* Vorige / volgende maand */
+.prev-month, .next-month {
+    background: #ddd;
+    color: #555;
+}
+
+/* Weekends */
+tbody tr td:nth-child(1),   /* zondag */
+tbody tr td:nth-child(7) { /* zaterdag */
+    background: rgb(255, 220, 220);
+}
+
+/* Feestdagen */
+.feestdag, .nieuwjaar {
+    background: rgb(250, 120, 120) !important;
+    color: white;
+    font-weight: bold;
+}
