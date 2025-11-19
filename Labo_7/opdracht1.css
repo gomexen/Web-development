@@ -1,0 +1,32 @@
+#vrienden table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 15px;
+}
+
+#vrienden table th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#vrienden table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+#vrienden table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#vrienden table tr:hover {
+    background-color: #ddd;
+}
+
+#vrienden h2 {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
