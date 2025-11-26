@@ -1,7 +1,9 @@
-.kolom {
-    width: 50%;
-    border: 1px solid black;
+.column {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
     padding: 10px;
+    background-color: lightgray;
     box-sizing: border-box;
-    float: left;
+    margin: 10px;
 }
